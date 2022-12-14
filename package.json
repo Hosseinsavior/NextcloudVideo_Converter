@@ -21,8 +21,6 @@
    "homepage": "https://github.com/Hosseinsavior/NextcloudVideo_Converter#readme"
 }
 
-    "require": 
-    
     "require-dev": {
         "phpunit/phpunit": "^5.4"
     }
