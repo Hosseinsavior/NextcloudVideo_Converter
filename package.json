@@ -7,7 +7,6 @@
     "scripts": {
         "build": "echo \"No build specified\" && exit 1",
        "test": "echo \"No test specified\" && exit 1", 
-{
        "start": "node index.js"
     },
    "repository": {
@@ -27,4 +26,4 @@
     "require-dev": {
         "phpunit/phpunit": "^5.4"
     }
-}
+
