@@ -1,25 +1,22 @@
-
 {
-    "name": "NextcloudVideo_Converter",
-    "version": "1.0.0",
-   
-     "description": "Allows to extract archive from the web interface", 
-    "scripts": {
-        "build": "echo \"No build specified\" && exit 1",
-       "test": "echo \"No test specified\" && exit 1", 
-       "start": "node index.js"
-    },
-   "repository": {
-        "type": "project",
-        "url": "git+https://github.com/Hosseinsavior/NextcloudVideo_Converter.git"
-    },
-    "author": "",
-    "license": "AGPL",
-    "bugs": {
-        "url": "https://github.com/Hosseinsavior/NextcloudVideo_Converter/issues"
-   },
-   "homepage": "https://github.com/Hosseinsavior/NextcloudVideo_Converter#readme"
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot.js",
+    "dev": "env-cmd ts-node-dev src/bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/lodash": "^4.14.188",
+    "@types/node": "^18.11.7",
+    "@types/node-fetch": "^2.6.2",
+    "env-cmd": "^10.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "grammy": "^1.11.2",
+    "lodash": "^4.17.21"
+  }
 }
-
-  
-
